@@ -4,6 +4,7 @@ NodeJs, REST API, JWT Authentication, MySQL, POSTMAN collection
 ## File configuration
 * **clone the file**
 * **npm install**
+* **nodemon server.js**
 
 ## Database Configuration
 * **create database node;**
