@@ -31,8 +31,9 @@ NodeJs, REST API, JWT Authentication, MySQL, POSTMAN collection
   ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 
-**Or use the node.sql file and import into 'node' database**
+* **Or use the node.sql file and import into 'node' database**
 
+## Postman collection
 ![alt text](https://github.com/parththeepan/NodeJs-REST-API-/blob/master/document/postman.png?raw=true)
 
 ## Register API
