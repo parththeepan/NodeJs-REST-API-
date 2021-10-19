@@ -1,6 +1,10 @@
 # NodeJs-REST-API-
 NodeJs, REST API, JWT Authentication, MySQL, POSTMAN collection
 
+## File configuration
+* **clone the file**
+* **npm install**
+
 ## Database Configuration
 * **create database node;**
 
