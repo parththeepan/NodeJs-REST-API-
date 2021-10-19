@@ -1,7 +1,32 @@
 # NodeJs-REST-API-
 NodeJs, REST API, JWT Authentication, MySQL, POSTMAN collection
 
+## Database Configuration
+* **create database node;**
 
+
+
+* CREATE TABLE customers(
+  id int(11) NOT NULL AUTO_INCREMENT,
+  username varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
+  email varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
+  password varchar(200) COLLATE utf8mb4_unicode_ci NOT NULL,
+  PRIMARY KEY (id),
+  ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+
+
+* CREATE TABLE category(
+  category_id int(11) NOT NULL AUTO_INCREMENT,
+  category_name varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
+  category_description varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
+  category_count varchar(200) COLLATE utf8mb4_unicode_ci NOT NULL,
+  category_status varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
+  PRIMARY KEY (category_id),
+  ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+
+**Or use the node.sql file and import into 'node' database**
 
 ![alt text](https://github.com/parththeepan/NodeJs-REST-API-/blob/master/document/postman.png?raw=true)
 
