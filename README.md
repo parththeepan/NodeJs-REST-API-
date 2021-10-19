@@ -5,10 +5,10 @@ NodeJs, REST API, JWT Authentication, MySQL, POSTMAN collection
 
 ![alt text](https://github.com/parththeepan/NodeJs-REST-API-/blob/master/document/postman.png?raw=true)
 
-##Register api
+## Register api
 User can add new customers with validation.
 
-##Login api
+## Login api
 using the username and password customer can login with validation.
 
 ## Authorization api 
